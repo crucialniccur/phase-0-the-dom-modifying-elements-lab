@@ -4,3 +4,7 @@ main = document.getElementById("main");
 console.log(main);
 
 main.remove();
+
+//create newHeader , a <h1> node
+const newHeader = document.createElement("h1");
+document.body.append(newHeader);
