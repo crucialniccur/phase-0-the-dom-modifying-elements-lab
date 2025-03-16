@@ -10,5 +10,11 @@ const newHeader = document.createElement("h1");
 document.body.append(newHeader);
 
 // add id victoy to newHeader
-// newHeader.id = "victory";
-newHeader.setAttribute("id", "victory");
+newHeader.id = "victory";
+// newHeader.setAttribute("id", "victory");
+console.log(newHeader.id);
+
+// add text
+newHeader.innerText = "Mati Joseph is the champion";
+
+console.log(newHeader.textContent);
