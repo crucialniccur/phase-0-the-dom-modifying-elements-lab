@@ -7,14 +7,14 @@ main.remove();
 
 //create newHeader , a <h1> node
 const newHeader = document.createElement("h1");
-document.body.append(newHeader);
 
 // add id victoy to newHeader
 newHeader.id = "victory";
 // newHeader.setAttribute("id", "victory");
-console.log(newHeader.id);
+console.log(newHeader.id + " is the id");
 
 // add text
-newHeader.innerText = "Mati Joseph is the champion";
+newHeader.innerHTML = "Mati-Joseph is the champion";
 
-console.log(newHeader.textContent);
+console.log(newHeader.innerHTML);
+document.body.append(newHeader);
